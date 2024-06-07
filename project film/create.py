@@ -1,4 +1,4 @@
-from second import *
+from connect import *
 
 def insert_record():
     try:

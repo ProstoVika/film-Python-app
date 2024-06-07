@@ -1,9 +1,8 @@
-
-import read, create, upd, delete, repor
+import read, create, upd, delete, report
 
 def read_file():
     try:
-        with open('project film/menu.txt') as file_read:
+        with open('menu.txt') as file_read:
             fr = file_read.read()
             return fr
     except FileNotFoundError as fnf:
@@ -37,7 +36,8 @@ while main_program:
         case '4':
            delete.delete_records()
         case '5':
-            repor.search_records()
+            report.search_records()
         case __:
             main_program = False
 input("Press 'Enter' to exist")
+
