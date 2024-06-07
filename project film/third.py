@@ -1,7 +1,7 @@
 import sqlite3
 
 def create_db():
-    con = sqlite3.connect('filmflix.db')
+    con = sqlite3.connect('project film/filmflix.db')
     cursor = con.cursor()
     cursor.execute('''
     CREATE TABLE IF NOT EXISTS tblfilms (

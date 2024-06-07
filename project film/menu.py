@@ -2,7 +2,7 @@ import read, create, upd, delete, report
 
 def read_file():
     try:
-        with open('menu.txt') as file_read:
+        with open('project film/menu.txt') as file_read:
             fr = file_read.read()
             return fr
     except FileNotFoundError as fnf:
